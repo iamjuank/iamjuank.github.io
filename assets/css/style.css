@@ -204,11 +204,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
+  background:white;
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 35px;
+  bottom:55px;
+  padding:15px;
   z-index: 9998;
-  border: 0;
+  border: 0px inset #000000;
+  border-radius:50%;
   background: #f3f3f3;
   font-size: 24px;
   transition: all 0.4s;
@@ -216,6 +219,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  -webkit-box-shadow:2px 3px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow:2px 3px 28px 0px rgba(0,0,0,0.75);
+  box-shadow:2px 3px 28px 0px rgba(0,0,0,0.75);
 }
 
 .mobile-nav-toggle i {
